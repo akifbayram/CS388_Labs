@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CS388_Lab1</string>
+    <string name="upgrade_message">Upgrade Pickaxe</string>
+    <string name="pickaxe_message">Pickaxe</string>
+</resources>
