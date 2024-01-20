@@ -32,7 +32,7 @@ Finding graphics to fit the theme was difficult but I was able to modify availab
 
 ## License
 
-    Copyright 2023 Mehmet Bayram
+    Copyright 2024 Mehmet Bayram
     
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
