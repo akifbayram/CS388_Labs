@@ -1,4 +1,4 @@
-CS388 - Lab 1: Tap Counter App
+# CS388 - Lab 1: Tap Counter App
 
 Submitted by: Mehmet Bayram
 
