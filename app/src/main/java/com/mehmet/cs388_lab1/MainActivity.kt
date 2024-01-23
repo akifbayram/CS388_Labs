@@ -27,7 +27,8 @@ class MainActivity : AppCompatActivity() {
                 upgradeButton.visibility = View.VISIBLE
                 upgradeButton.setOnClickListener {
                     button.setImageResource(R.drawable.pickaxe_stone)
-                    Toast.makeText(it.context, "Upgraded to a Stone Pickaxe!", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(it.context, R.string.toast_upgrade_stone, Toast.LENGTH_SHORT)
+                        .show()
 
                     button.setOnClickListener {
                         counter += 2
@@ -37,19 +38,23 @@ class MainActivity : AppCompatActivity() {
                             upgradeButton.visibility = View.VISIBLE
                             upgradeButton.setOnClickListener {
                                 button.setImageResource(R.drawable.pickaxe_gold)
-                                Toast.makeText(it.context, "Upgraded to a Gold Pickaxe!", Toast.LENGTH_SHORT).show()
+                                Toast.makeText(
+                                    it.context,
+                                    R.string.toast_upgrade_gold,
+                                    Toast.LENGTH_SHORT
+                                ).show()
 
                                 button.setOnClickListener {
                                     counter += 5
                                     textView.text = counter.toString()
 
-                                    if (counter >= 100) {
+                                    if (counter >= 160) {
                                         upgradeButton.visibility = View.VISIBLE
                                         upgradeButton.setOnClickListener {
                                             button.setImageResource(R.drawable.pickaxe_diamond)
                                             Toast.makeText(
                                                 it.context,
-                                                "Upgraded to a Diamond Pickaxe!",
+                                                R.string.toast_upgrade_diamond,
                                                 Toast.LENGTH_SHORT
                                             ).show()
 

@@ -17,7 +17,7 @@ The following **optional** features are implemented:
     * By default, the user starts with a wooden pickaxe that gives 1x multiplier.
     * Achieve 20 taps to get 2x multiplier with a stone pickaxe.
     * Achieve 60 taps to get 4x multiplier with an iron pickaxe.
-    * Achieve 100 taps to get 8x multiplier with a diamond pickaxe.
+    * Achieve 120 taps to get 8x multiplier with a diamond pickaxe.
 - [X] Customize the app with a theme.
 
 ## Video Walkthrough
