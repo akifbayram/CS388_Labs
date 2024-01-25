@@ -23,25 +23,24 @@ class MainActivity : AppCompatActivity() {
             counter++
             textView.text = counter.toString()
 
-            if (counter >= 20) {
+            if (counter in 20..59) {
                 upgradeButton.visibility = View.VISIBLE
                 upgradeButton.setOnClickListener {
                     button.setImageResource(R.drawable.pickaxe_stone)
                     Toast.makeText(it.context, R.string.toast_upgrade_stone, Toast.LENGTH_SHORT)
                         .show()
 
+
                     button.setOnClickListener {
                         counter += 2
                         textView.text = counter.toString()
 
-                        if (counter >= 60) {
+                        if (counter in 60..159) {
                             upgradeButton.visibility = View.VISIBLE
                             upgradeButton.setOnClickListener {
                                 button.setImageResource(R.drawable.pickaxe_gold)
                                 Toast.makeText(
-                                    it.context,
-                                    R.string.toast_upgrade_gold,
-                                    Toast.LENGTH_SHORT
+                                    it.context, R.string.toast_upgrade_gold, Toast.LENGTH_SHORT
                                 ).show()
 
                                 button.setOnClickListener {
