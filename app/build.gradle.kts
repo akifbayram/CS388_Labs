@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.mehmet.cs388_lab1"
+    namespace = "com.mehmet.cs388_labs"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.mehmet.cs388_lab1"
+        applicationId = "com.mehmet.cs388_labs"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

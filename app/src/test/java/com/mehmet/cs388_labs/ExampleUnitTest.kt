@@ -1,4 +1,4 @@
-package com.mehmet.cs388_lab1
+package com.mehmet.cs388_labs
 
 import org.junit.Test
 

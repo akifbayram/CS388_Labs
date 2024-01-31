@@ -1,4 +1,4 @@
-package com.mehmet.cs388_lab1
+package com.mehmet.cs388_labs
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

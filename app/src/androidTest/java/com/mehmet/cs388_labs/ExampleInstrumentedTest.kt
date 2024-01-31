@@ -1,4 +1,4 @@
-package com.mehmet.cs388_lab1
+package com.mehmet.cs388_labs
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.mehmet.cs388_lab1", appContext.packageName)
+        assertEquals("com.mehmet.cs388_labs", appContext.packageName)
     }
 }
