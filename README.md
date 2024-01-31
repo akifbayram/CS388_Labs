@@ -1,34 +1,32 @@
-# CS388 - Lab 1: Tap Counter App
+# CS388 - Lab 2: CodepathMail App (Gmail Clone)
 
 Submitted by: Mehmet Bayram
 
-Time spent: 2-3 hours spent in total
+Time spent: 1-2 hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [X] **User can see a number displayed on the screen. The number starts at 0.**
-- [X] **User can tap on a button to see the number displayed increase by 1.**
+- [X] User can scroll through a list of 10 emails
+  - [X] Each email includes the following information:
+    - [X] Sender
+    - [X] Email title
+    - [X] Email summary
 
 The following **optional** features are implemented:
 
-- [X] User can exchange number of taps accumulated for upgrades. In this app:
-    * By default, the user starts with a wooden pickaxe that gives 1x multiplier.
-    * Achieve 20 taps to get 2x multiplier with a stone pickaxe.
-    * Achieve 60 taps to get 4x multiplier with an iron pickaxe.
-    * Achieve 120 taps to get 8x multiplier with a diamond pickaxe.
-- [X] Customize the app with a theme.
+- [X] User can press a 'Load More' button to see the next 5 emails displayed
+- [X] Each email displays additional information:
+    * Picture of the sender
+    * Email sent date
+    * Bolded information if the email is unread
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='cs388_lab1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-## Notes
-
-Finding graphics to fit the theme was difficult but I was able to modify available options to fit. Ensuring visibility of the text was also a challenge.
+<img src='cs388_lab.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## License
 

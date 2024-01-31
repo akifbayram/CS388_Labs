@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "CS388_Lab1"
+rootProject.name = "CS388_Labs"
 include(":app")
  
