@@ -1,10 +1,3 @@
 <resources>
     <string name="app_name">CS388_Labs</string>
-    <string name="upgrade_message">Upgrade Pickaxe</string>
-    <string name="pickaxe_message">Pickaxe</string>
-    <string name="_0">0</string>
-    <string name="toast_upgrade_stone">Upgraded to a Stone Pickaxe!</string>
-    <string name="toast_upgrade_iron">Upgraded to an Iron Pickaxe!</string>
-    <string name="toast_upgrade_diamond">Upgraded to a Diamond Pickaxe!</string>
-    <string name="toast_upgrade_gold">Upgraded to a Gold Pickaxe!</string>
 </resources>
